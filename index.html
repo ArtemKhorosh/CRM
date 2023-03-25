@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="initial-scale=1, minimum-scale=1, maximum-scale=5, width=device-width, height=device-height, shrink-to-fit=no">
+    <meta name="description" content="CRM Dashboard Customers">
+    <title>CRM Dashboard Customers</title>
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+
+<body>
+    <main class="main-container">
+        <div class="container">
+            <div class="row">
+                <aside class="dashboard col-lg-3 col-md-12">
+                    <header class="dashboard__header">
+                        <a href="#" class="dashboard__logo">
+                            <svg class="icon">
+                                <use xlink:href="#icon-setting"></use>
+                            </svg>
+                            <p class="dashboard__title">Dashboard
+                                <small class="dashboard__version">v.01</small>
+                            </p>
+                        </a>
+                        <button class="btn-menu" aria-label="Mobile menu">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </button>
+                    </header>
+                    <ul class="dashboard__menu">
+                        <li class="dashboard__menu-item">
+                            <a href="#" class="dashboard__menu-link">
+                                <span>
+                                    <svg class="icon">
+                                        <use xlink:href="#key-square"></use>
+                                    </svg>
+                                </span>
+                                Dashboard
+                            </a>
+                        </li>
+                        <li class="dashboard__menu-item">
+                            <a href="#" class="dashboard__menu-link">
+                                <span>
+                                    <svg class="icon">
+                                        <use xlink:href="#square"></use>
+                                    </svg>
+                                </span>
+                                Product
+                                <svg class="icon-chevron">
+                                    <use xlink:href="#chevron-right"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="dashboard__menu-item dashboard__menu-item--active">
+                            <a href="#" class="dashboard__menu-link">
+                                <span>
+                                    <svg class="icon">
+                                        <use xlink:href="#user-square"></use>
+                                    </svg>
+                                </span>
+                                Customers
+                                <svg class="icon-chevron">
+                                    <use xlink:href="#chevron-right"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="dashboard__menu-item">
+                            <a href="#" class="dashboard__menu-link">
+                                <span>
+                                    <svg class="icon">
+                                        <use xlink:href="#wallet-money"></use>
+                                    </svg>
+                                </span>
+                                Income
+                                <svg class="icon-chevron">
+                                    <use xlink:href="#chevron-right"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="dashboard__menu-item">
+                            <a href="#" class="dashboard__menu-link">
+                                <span>
+                                    <svg class="icon">
+                                        <use xlink:href="#discount-shape"></use>
+                                    </svg>
+                                </span>
+                                Promote
+                                <svg class="icon-chevron">
+                                    <use xlink:href="#chevron-right"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="dashboard__menu-item">
+                            <a href="#" class="dashboard__menu-link">
+                                <span>
+                                    <svg class="icon">
+                                        <use xlink:href="#message-question"></use>
+                                    </svg>
+                                </span>
+                                Help
+                                <svg class="icon-chevron">
+                                    <use xlink:href="#chevron-right"></use>
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                    <footer class="dashboard__footer">
+                        <div class="dashboard__user">
+                            <picture>
+                                <source srcset="images/img-user.webp" type="image/webp">
+                                <source srcset="images/img-user.jpg" type="image/jpeg">
+                                <img src="images/img-user.jpg" alt="User" class="dashboard__user-avatar" width="42" height="42" loading="eager">
+                            </picture>
+                            <div class="dashboard__user-about">
+                                <a href="#" class="dashboard__user-name">Evano</a>
+                                <span class="dashboard__user-role">Project Manager</span>
+                            </div>
+                        </div>
+                    </footer>
+                </aside>
+                <section class="customers col-lg-9 col-md-12">
+                    <h1 class="customers__title">Hello Evano 👋🏼,</h1>
+                    <section class="customers-table__wrap">
+                        <header class="customers-table__header">
+                            <div class="heading">
+                                <h2 class="heading__title">All Customers</h2>
+                                <p class="heading__text">Active Members</p>
+                            </div>
+                            <div class="table__search">
+                                <svg class="icon">
+                                    <use xlink:href="#search-icon"></use>
+                                </svg>
+                                <input type="text" class="form-control" placeholder="Search">
+                            </div>
+                        </header>
+                        <div class="table-responsive">
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th class="table-header">Customer Name</th>
+                                        <th class="table-header">Company</th>
+                                        <th class="table-header">Phone Number</th>
+                                        <th class="table-header">Email</th>
+                                        <th class="table-header">Country</th>
+                                        <th class="table-header">Status</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="table-row">Jane Cooper</td>
+                                        <td class="table-row">Microsoft</td>
+                                        <td class="table-row">(225) 555-0118</td>
+                                        <td class="table-row">jane@microsoft.com</td>
+                                        <td class="table-row">United States</td>
+                                        <td class="table-row"><span class="table-status table-status__active">Active</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="table-row">Floyd Miles</td>
+                                        <td class="table-row">Yahoo</td>
+                                        <td class="table-row">(205) 555-0100</td>
+                                        <td class="table-row">floyd@yahoo.com</td>
+                                        <td class="table-row">Kiribati</td>
+                                        <td class="table-row "><span class="table-status table-status__inactive">Inactive</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="table-row">Ronald Richards</td>
+                                        <td class="table-row">Adobe</td>
+                                        <td class="table-row">(302) 555-0107</td>
+                                        <td class="table-row">ronald@adobe.com</td>
+                                        <td class="table-row">Israel</td>
+                                        <td class="table-row "><span class="table-status table-status__inactive">Inactive</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="table-row">Marvin McKinney</td>
+                                        <td class="table-row">Tesla</td>
+                                        <td class="table-row">(252) 555-0126</td>
+                                        <td class="table-row">marvin@tesla.com</td>
+                                        <td class="table-row">Iran</td>
+                                        <td class="table-row"><span class="table-status table-status__active">Active</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="table-row">Jerome Bell</td>
+                                        <td class="table-row">Google</td>
+                                        <td class="table-row">(629) 555-0129</td>
+                                        <td class="table-row">jerome@google.com</td>
+                                        <td class="table-row">Réunion</td>
+                                        <td class="table-row"><span class="table-status table-status__active">Active</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="table-row">Kathryn Murphy</td>
+                                        <td class="table-row">Microsoft</td>
+                                        <td class="table-row">(406) 555-0120</td>
+                                        <td class="table-row">kathryn@microsoft.com</td>
+                                        <td class="table-row">Curaçao</td>
+                                        <td class="table-row"><span class="table-status table-status__active">Active</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="table-row">Jacob Jones</td>
+                                        <td class="table-row">Yahoo</td>
+                                        <td class="table-row">(208) 555-0112</td>
+                                        <td class="table-row">jacob@yahoo.com</td>
+                                        <td class="table-row">Brazil</td>
+                                        <td class="table-row"><span class="table-status table-status__active">Active</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="table-row">Kristin Watson</td>
+                                        <td class="table-row">Facebook</td>
+                                        <td class="table-row">(704) 555-0127</td>
+                                        <td class="table-row">kristin@facebook.com</td>
+                                        <td class="table-row">Åland Islands</td>
+                                        <td class="table-row "><span class="table-status table-status__inactive">Inactive</span></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <footer class="pagination">
+                            <p class="pagination__label">Showing data 1 to 8 of 256K entries</p>
+                            <ul class="pagination__list">
+                                <li class="pagination-list__item"><a href="#" class="pagination__link">&lt;</a></li>
+                                <li class="pagination-list__item"><a href="#" class="pagination__link pagination__link-active">1</a></li>
+                                <li class="pagination-list__item"><a href="#" class="pagination__link">2</a></li>
+                                <li class="pagination-list__item"><a href="#" class="pagination__link">3</a></li>
+                                <li class="pagination-list__item"><a href="#" class="pagination__link">4</a></li>
+                                <li class="pagination-list__item"><a href="#" class="pagination__link pagination__link-dots">...</a></li>
+                                <li class="pagination-list__item"><a href="#" class="pagination__link">40</a></li>
+                                <li class="pagination-list__item"><a href="#" class="pagination__link">&gt;</a></li>
+                            </ul>
+                        </footer>
+                    </section>
+                </section>
+            </div>
+        </div>
+    </main>
+
+
+    <svg style="display:block;width:0;height:0;" aria-hidden="true" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+        <symbol fill="#000" viewBox="0 0 37 37" id="icon-setting">
+            <path d="M18.5 34.888c-1.033 0-2.081-.231-2.898-.709l-8.479-4.887c-3.453-2.328-3.669-2.683-3.669-6.336v-8.911c0-3.654.2-4.008 3.592-6.305l8.541-4.933c1.619-.94 4.163-.94 5.781 0l8.51 4.903c3.453 2.328 3.669 2.682 3.669 6.336v8.895c0 3.654-.2 4.008-3.592 6.305l-8.541 4.933c-.833.478-1.881.709-2.914.709zm0-30.463c-.648 0-1.28.123-1.727.385L8.295 9.712c-2.513 1.696-2.513 1.696-2.513 4.332v8.895c0 2.636 0 2.636 2.575 4.378l8.417 4.856c.91.524 2.559.524 3.469 0l8.479-4.903c2.498-1.696 2.498-1.696 2.498-4.332v-8.895c0-2.636 0-2.636-2.575-4.378L20.227 4.81c-.447-.262-1.079-.385-1.727-.385zm0 19.856c-3.191 0-5.781-2.59-5.781-5.781s2.59-5.781 5.781-5.781 5.781 2.59 5.781 5.781-2.59 5.781-5.781 5.781zm0-9.25c-1.912 0-3.469 1.557-3.469 3.469s1.557 3.469 3.469 3.469 3.469-1.557 3.469-3.469-1.557-3.469-3.469-3.469z"></path>
+        </symbol>
+        <symbol viewBox="0 0 6.35 6.35" id="key-square">
+            <path
+                d="M2.381.33C1.693.33 1.169.469.82.819s-.489.874-.489 1.562v1.588c0 .688.139 1.213.488 1.563s.874.488 1.562.488h1.588c.688 0 1.213-.139 1.563-.488s.488-.875.488-1.563V2.381c0-.688-.139-1.213-.488-1.562S4.657.33 3.969.33H2.381zm0 .398h1.588c.635 0 1.035.125 1.281.371s.373.646.373 1.281v1.588c0 .635-.127 1.035-.373 1.281s-.646.373-1.281.373H2.381c-.635 0-1.035-.127-1.281-.373S.73 4.604.73 3.969V2.381c0-.635.125-1.035.371-1.281S1.746.729 2.381.729V.728zm1.148.795l-.001.002a1.29 1.29 0 0 0-.918.379c-.299.299-.327.717-.273 1.107l-.682.682a.198.198 0 0 0-.004.004.42.42 0 0 0-.125.379v.002l.043.316a.198.198 0 0 0 0 .004c.031.201.173.356.387.383l.317.043a.41.41 0 0 0 .389-.131l.682-.68c.39.054.807.027 1.105-.271a.198.198 0 0 0 0-.001.198.198 0 0 0 0-.001.198.198 0 0 0 0-.001.198.198 0 0 0 0-.001.198.198 0 0 0 0-.001.198.198 0 0 0 0-.001.198.198 0 0 0 0-.001.198.198 0 0 0 0-.001c.504-.507.506-1.334 0-1.836a1.3 1.3 0 0 0-.92-.379zm-.001.398c.231 0 .463.087.641.264a.9.9 0 0 1-.002 1.275.9.9 0 0 1-.904.223.198.198 0 0 0-.201.049l-.294.294-.085-.087a.198.198 0 0 0-.283.28l.087.089-.109.109a.198.198 0 0 0-.002.002c.006-.012-.057.013-.047.014a.198.198 0 0 0-.002 0L2.01 4.39a.198.198 0 0 0-.002 0c.002 0-.044-.047-.045-.051l-.041-.312h.001a.1.1 0 0 0 .017-.055l.68-.68a.198.198 0 0 0 .049-.197c-.096-.311-.023-.662.223-.908a.9.9 0 0 1 .639-.264l-.002-.002zm.018.644a.265.265 0 1 0 0 .53h.002a.265.265 0 0 0 0-.53h-.002z">
+            </path>
+        </symbol>
+        <symbol viewBox="0 0 6.35 6.35" id="message-question">
+            <path d="M1.852.446c-.91 0-1.521.611-1.521 1.521v1.588c0 .841.524 1.429 1.323 1.511v.376a.46.46 0 0 0 .243.407c.069.037.146.056.22.056a.47.47 0 0 0 .257-.077l1.127-.751h.997c.91 0 1.521-.611 1.521-1.521V1.967c0-.91-.611-1.521-1.521-1.521zm0 .394h2.648a1.05 1.05 0 0 1 1.124 1.124v1.587a1.05 1.05 0 0 1-1.124 1.124H3.442c-.04 0-.079.013-.111.035l-1.177.783c-.029.019-.055.011-.069.003s-.035-.023-.035-.058v-.564a.2.2 0 0 0-.198-.198A1.05 1.05 0 0 1 .728 3.552V1.964A1.05 1.05 0 0 1 1.852.84zm1.323.775a.64.64 0 0 0-.638.638.2.2 0 0 0 .198.198.2.2 0 0 0 .198-.198c0-.132.109-.241.241-.241s.241.109.241.241c0 .069-.032.114-.13.18-.085.058-.31.209-.31.516v.055a.2.2 0 0 0 .198.198c.108 0 .198-.087.198-.198v-.055c0-.074.032-.119.135-.188.082-.056.304-.206.304-.508a.64.64 0 0 0-.638-.638zM3.17 3.465a.2.2 0 0 0-.193.198c0 .108.087.198.198.198s.198-.09.198-.198a.2.2 0 0 0-.198-.198z"></path>
+        </symbol>
+        <symbol viewBox="0 0 6.35 6.35" id="user-square">
+            <path
+                d="M2.381.33C1.693.33 1.168.469.819.819S.33 1.693.33 2.381v1.588c0 .52.077.942.268 1.273s.5.558.898.67a.198.198 0 0 0 .009.001c.244.072.532.106.876.106h1.588c.345 0 .634-.034.878-.106a.198.198 0 0 0 .007-.001c.398-.113.708-.339.899-.67s.268-.753.268-1.273V2.381c0-.688-.139-1.213-.488-1.562S4.657.33 3.969.33H2.381zm0 .398h1.588c.635 0 1.035.125 1.281.371s.373.646.373 1.281v1.588c0 .48-.074.833-.214 1.076-.103.179-.269.284-.469.37-.199-.61-.842-1.064-1.611-1.118l-.042-.003-.063-.003-.048-.001-.038.001-.052.002-.063.004c-.769.054-1.414.51-1.612 1.118-.2-.086-.366-.191-.469-.37-.14-.243-.213-.596-.213-1.076V2.381c0-.635.125-1.035.371-1.281S1.746.729 2.381.729zm.794.925c-.494 0-.915.313-1.076.752l-.018.053-.016.054c-.009.034-.016.069-.021.104l-.009.065-.004.056-.002.059v.001h0l.002.058.004.058.008.057.01.056.013.055.016.054A1.15 1.15 0 0 0 3 3.934l.116.012.059.002.058-.002.109-.011c.089-.014.159-.033.226-.057.053-.02.103-.043.152-.069.26-.142.459-.382.548-.67l.016-.053.023-.112.007-.057.006-.117a1.16 1.16 0 0 0-.006-.117l-.007-.053a1.21 1.21 0 0 0-.039-.17l-.018-.053c-.039-.106-.092-.203-.158-.291l-.034-.043a1.05 1.05 0 0 0-.074-.081 1.14 1.14 0 0 0-.81-.336zm.001.397l.042.001.029.003.02.002.022.003.037.007.022.005a.75.75 0 0 1 .574.667l.002.023v.02l.001.019-.001.039-.002.026-.003.03-.006.038-.007.035-.01.038-.011.036c-.008.023-.017.046-.027.068a.75.75 0 0 1-.532.427.75.75 0 0 1-.082.012l-.023.002-.045.002h-.001l-.038-.001a.75.75 0 0 1-.131-.018l-.036-.009-.035-.011-.035-.013-.033-.013-.066-.034c-.136-.078-.245-.198-.31-.343l-.027-.068-.011-.036-.009-.036c-.006-.024-.01-.049-.013-.074l-.004-.038-.002-.038v-.02l.002-.057.002-.02a.75.75 0 0 1 .505-.632l.033-.01.024-.006.028-.006.035-.007.044-.006.038-.003.039-.001zm-.033 2.638h.032a1.73 1.73 0 0 1 .703.145l.052.024.044.023.036.02.053.032c.255.161.437.388.508.64a3.14 3.14 0 0 1-.603.05H2.381c-.23 0-.428-.016-.603-.05l.013-.042c.089-.265.302-.499.593-.653l.027-.014.021-.01.037-.018.056-.024.045-.018c.164-.059.333-.094.51-.103l.063-.002z">
+            </path>
+        </symbol>
+        <symbol viewBox="0 0 6.35 6.35" id="wallet-money">
+            <path
+                d="M1.852.529c-.082 0-.161.006-.239.018h-.001C.852.642.331 1.251.331 2.051v.529a.198.198 0 1 0 .397 0v-.529c0-.64.346-1.036.935-1.11a.198.198 0 0 0 .006-.001 1.21 1.21 0 0 1 .184-.013h2.381a1.04 1.04 0 0 1 .166.01.198.198 0 0 0 .01.002c.596.069.949.468.949 1.113v.185h-.352l-.056.002-.037.004-.072.013-.053.014-.034.012-.034.013-.033.015-.032.017-.031.018-.03.019-.029.021-.028.022-.027.024-.026.025c-.108.106-.183.246-.208.4l-.003.02-.006.061-.001.021v.021.021l.001.021.002.021.007.055.007.036.009.035c.017.057.032.095.05.132l.017.03.037.059.02.028.022.027.023.026.024.024.025.024.026.022.027.021.028.02.029.019.03.018.03.016.032.015.032.013.033.012.033.011.068.017.035.006.035.005.035.003.054.002h.32v.185c0 .353-.115.627-.306.819s-.466.306-.819.306h-.661a.198.198 0 0 0 0 .397h.661c.441 0 .828-.15 1.1-.422s.422-.659.422-1.1v-.234a.47.47 0 0 0 .265-.42v-.545a.47.47 0 0 0-.265-.42v-.234c0-.804-.53-1.415-1.297-1.506a1.41 1.41 0 0 0-.225-.016H1.852zM1.9 2.514a1.27 1.27 0 0 0-.308.038l-.03.008-.023.007a1.16 1.16 0 0 0-.444.24c-.206.181-.343.44-.343.729l.003.073v.654.001.537c0 .579.531 1.021 1.146 1.021S3.043 5.378 3.043 4.8v-.537a.198.198 0 0 0 0-.001v-.728c0-.289-.136-.55-.343-.731a.198.198 0 0 0-.001-.001 1.22 1.22 0 0 0-.799-.289zm3.106.119h.543c.046.002.073.032.073.072v.545c0 .04-.028.07-.073.072h-.512l-.035-.002c-.035-.004-.052-.008-.068-.012l-.033-.011-.032-.013a.4.4 0 0 1-.044-.024l-.027-.019-.025-.021-.023-.023c-.021-.025-.031-.038-.04-.052l-.016-.028c-.017-.039-.025-.065-.028-.092a.198.198 0 0 0-.002-.017.198.198 0 0 0 0-.001.198.198 0 0 0 0-.001.198.198 0 0 0 0-.001c-.01-.105.03-.202.1-.271a.198.198 0 0 0 .004-.004l.024-.022c.012-.01.026-.02.039-.028l.028-.016c.029-.013.045-.018.061-.022.039-.008.062-.01.086-.01zm-3.132.281h.02c.215 0 .405.076.54.193a.198.198 0 0 0 .002.002.55.55 0 0 1 .209.427.49.49 0 0 1-.072.257c-.113.185-.364.322-.676.322s-.563-.14-.676-.323c-.037-.062-.061-.128-.069-.201v-.056c0-.173.086-.336.23-.452l.027-.02.035-.024.024-.014.025-.014a.86.86 0 0 1 .382-.097zm.772 1.371l-.002.024-.003.029-.005.028-.003.014-.006.024-.01.03h-.001l-.008.022-.002.005-.006.013-.013.025-.007.013-.023.035-.018.023-.018.022-.032.033-.047.041-.033.025c-.049.034-.092.057-.138.077-.032.014-.066.026-.102.036l-.036.01-.037.008-.038.007-.039.005-.039.004-.02.001-.02.001-.041.001c-.014 0-.027 0-.041-.001h-.001l-.04-.002h-.001l-.039-.004-.039-.005c-.039-.006-.076-.015-.111-.025a.78.78 0 0 1-.274-.138c-.107-.086-.174-.19-.196-.314l-.007-.059h0c.204.139.465.219.745.219s.544-.08.749-.227zm-1.34.819c.158.08.339.126.531.134l.021.001.042.001.028-.001a1.33 1.33 0 0 0 .564-.134c-.124.18-.314.32-.592.32s-.47-.141-.594-.321z">
+            </path>
+        </symbol>
+        <symbol viewBox="0 0 6.35 6.35" id="square">
+            <path d="M2.381.331C.945.331.331.945.331 2.381v1.588c0 1.437.614 2.051 2.051 2.051h1.588c1.437 0 2.051-.614 2.051-2.051V2.381C6.019.945 5.405.331 3.969.331H2.381zm0 .397h1.588c1.22 0 1.654.434 1.654 1.654v1.588c0 1.22-.434 1.654-1.654 1.654H2.381c-1.22 0-1.654-.434-1.654-1.654V2.381c0-1.22.434-1.654 1.654-1.654zm.794.658c-.152 0-.304.034-.426.101l-.847.471c-.251.143-.45.478-.45.767v.897a.95.95 0 0 0 .45.767l.847.471c.122.066.272.101.426.101s.304-.032.426-.101l.847-.471c.251-.143.45-.479.45-.767v-.897a.95.95 0 0 0-.45-.767l-.847-.471c-.122-.067-.274-.101-.426-.101zm0 .4a.49.49 0 0 1 .233.05l.846.471a.37.37 0 0 1 .078.059l-1.16.671-1.155-.67c.025-.025.051-.045.079-.06l.847-.471c.061-.034.145-.05.233-.05zm1.326.939v.897c0 .146-.116.347-.246.418l-.846.471c-.011.006-.023.012-.035.017V3.377l1.127-.652zm-2.651.002l1.127.651v1.15c-.012-.005-.023-.011-.034-.017l-.847-.471a.55.55 0 0 1-.246-.418v-.895z"></path>
+        </symbol>
+        <symbol viewBox="0 0 4.233 4.233" id="chevron-right">
+            <path d="M1.589.799V.8a.265.265 0 0 0-.188.453l.871.871-.871.871a.265.265 0 0 0 .375.373l1.056-1.057a.265.265 0 0 0 0-.375L1.777.878a.265.265 0 0 0-.188-.079z"></path>
+        </symbol>
+        <symbol viewBox="0 0 6.35 6.35" id="discount-shape">
+            <path
+                d="M3.175.335a.62.62 0 0 0-.439.175l-.402.402c-.032.032-.116.066-.159.066h-.572a.62.62 0 0 0-.622.622v.572c0 .042-.034.127-.066.159l-.403.402c-.119.116-.182.273-.182.439a.62.62 0 0 0 .182.439l.403.403c.032.032.066.116.066.159v.572a.62.62 0 0 0 .622.622h.572c.042 0 .127.034.159.066l.402.402c.116.119.273.182.439.182s.323-.063.439-.182l.402-.402c.032-.032.116-.066.159-.066h.572a.62.62 0 0 0 .622-.622v-.572c0-.042.034-.127.066-.159l.403-.403c.119-.116.182-.273.182-.439a.62.62 0 0 0-.182-.439l-.403-.402c-.032-.032-.066-.116-.066-.159v-.572a.62.62 0 0 0-.622-.622h-.572c-.042 0-.127-.034-.159-.066L3.614.51a.62.62 0 0 0-.439-.175zm0 .391c.058 0 .116.021.159.064l.402.403c.106.106.291.182.439.182h.572c.124 0 .225.1.225.225v.572c0 .148.077.333.183.439l.402.402c.042.042.066.098.066.159s-.024.117-.066.159l-.402.402c-.106.106-.183.291-.183.439v.572c0 .124-.1.225-.225.225h-.572c-.148 0-.333.077-.439.182l-.402.402a.23.23 0 0 1-.317 0l-.402-.402c-.106-.106-.291-.182-.439-.182h-.572c-.124 0-.225-.1-.225-.225v-.572c0-.148-.077-.333-.183-.439L.794 3.33c-.042-.042-.066-.098-.066-.159s.024-.116.066-.159l.402-.402c.106-.106.183-.291.183-.439v-.572c0-.124.1-.225.225-.225h.572c.148 0 .333-.077.439-.182L3.016.79c.042-.042.1-.064.159-.064zm-.8 1.386c-.142.004-.258.121-.258.265s.119.265.267.265.262-.119.262-.265-.119-.265-.265-.265zm1.594.067c-.051 0-.102.02-.141.058L2.241 3.825a.2.2 0 0 0 0 .28c.04.04.09.058.141.058s.1-.019.14-.058l1.588-1.587a.2.2 0 0 0 0-.28c-.038-.038-.089-.058-.14-.058zM3.959 3.7c-.142.004-.258.121-.258.265s.119.265.267.265.262-.119.262-.265-.119-.265-.265-.265z">
+            </path>
+        </symbol>
+        <symbol viewBox="0 0 6.35 6.35" id="search-icon">
+            <path d="M2.91.529C1.598.529.529 1.598.529 2.91S1.598 5.291 2.91 5.291a2.37 2.37 0 0 0 1.486-.522l.974.976a.265.265 0 1 0 .375-.375l-.976-.974a2.37 2.37 0 0 0 .522-1.486C5.291 1.598 4.222.529 2.91.529zm0 .53c1.026 0 1.852.825 1.852 1.851 0 .5-.195.952-.515 1.284a.265.265 0 0 0-.051.051.265.265 0 0 0-.001.001c-.333.32-.785.516-1.286.516-1.026 0-1.851-.826-1.851-1.852s.825-1.851 1.851-1.851z"></path>
+        </symbol>
+    </svg>
+
+    <script src="scripts/main.js"></script>
+</body>
+
+</html>
